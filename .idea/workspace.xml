@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3b33743-ed9c-4a03-8b62-bf6314008786" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classic/concurrency/Banheiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classic/firstthread/AcaoBotao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classic/firstthread/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classic/textualsearch/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assinaturas1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assinaturas2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/autores.txt" afterDir="false" />
+    <list default="true" id="f3b33743-ed9c-4a03-8b62-bf6314008786" name="Changes" comment="first thread">
+      <change afterPath="$PROJECT_DIR$/src/main/java/classic/collections/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classic/collections/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classic/concurrency/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classic/concurrency/Banheiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classic/concurrency/Banheiro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +61,39 @@
       <recent name="C:\Users\pc\IdeaProjects\java\classic-and-virtual-threads\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.classic.textualsearch.Main">
+  <component name="RunManager" selected="Application.classic.concurrency.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classic.firstthread.Main" />
       <module name="classic-and-virtual-threads" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classic.firstthread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="classic.collections.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classic.collections.Main" />
+      <module name="classic-and-virtual-threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classic.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="classic.concurrency.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classic.concurrency.Main" />
+      <module name="classic-and-virtual-threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classic.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,33 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstThreadTest.testMainThread" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="classic-and-virtual-threads" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstThreadTest" />
-      <option name="METHOD_NAME" value="testMainThread" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstThreadTest.testThread" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="classic-and-virtual-threads" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstThreadTest" />
-      <option name="METHOD_NAME" value="testThread" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.classic.concurrency.Main" />
+        <item itemvalue="Application.classic.collections.Main" />
         <item itemvalue="Application.classic.textualsearch.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FirstThreadTest.testFirstThread" />
-        <item itemvalue="JUnit.FirstThreadTest.testMainThread" />
-        <item itemvalue="JUnit.FirstThreadTest.testThread" />
       </list>
     </recent_temporary>
   </component>
@@ -142,11 +143,26 @@
       <option name="presentableId" value="Default" />
       <updated>1681607702528</updated>
       <workItem from="1681607704009" duration="3041000" />
-      <workItem from="1681652461151" duration="86000" />
+      <workItem from="1681652461151" duration="3322000" />
+      <workItem from="1681677054840" duration="9000" />
+      <workItem from="1681734119679" duration="2516000" />
+      <workItem from="1682121734228" duration="2231000" />
     </task>
+    <task id="LOCAL-00001" summary="first thread">
+      <created>1681652567839</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681652567839</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="first thread" />
   </component>
 </project>
